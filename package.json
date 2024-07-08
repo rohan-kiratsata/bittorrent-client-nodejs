@@ -1,0 +1,9 @@
+{
+    "type": "module",
+    "dependencies": {
+        "bencode": "^4.0.0"
+    },
+    "devDependencies": {
+        "@types/bencode": "^2.0.4"
+    }
+}
