@@ -9,7 +9,7 @@ Reference: https://allenkim67.github.io/programming/2016/05/04/how-to-make-your-
   - encoding and decoding bencode data. something similar to json/xml but with different format, mainly used for torrents.
     - [Bencode](https://www.npmjs.com/package/bencode), 
     - [Bencoding Theory](https://wiki.theory.org/BitTorrentSpecification#Bencoding)
-  - UDP is best for torrents as smaller chunks for data is sent and recieved in trackers, and use TCP for actual transfer of files
+  - UDP is best for torrents as smaller chunks of data is sent and recieved in trackers, and use TCP for actual transfer of files
     - [dgram](https://nodejs.org/api/dgram.html)
     - [socket](https://nodejs.org/api/dgram.html#class-dgramsocket)
   - 
